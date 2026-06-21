@@ -15,7 +15,7 @@ If `data-action=foo` and `data-target=#football` it routes the request to the ac
 
 
 ### Triggering Requests & Events
-The default event is click. Other events are availble. For example to trigger on hover, use `data-event="hover"`. In addition a custom event can be called. For example, `data-event="my-event"` would allow you to use `$('#my-trigger').trigger('my-event');`. Additional, custom attributes can be passed, as long as they start with data. All data-* attributes are submitted as fields. So, if your wp_ajax action requires a variable called page, simply add data-page="443" to the trigger.
+The default event is click. Other events are available. For example to trigger on hover, use `data-event="hover"`. In addition a custom event can be called. For example, `data-event="my-event"` would allow you to use `$('#my-trigger').trigger('my-event');`. Additional, custom attributes can be passed, as long as they start with data. All data-* attributes are submitted as fields. So, if your wp_ajax action requires a variable called page, simply add data-page="443" to the trigger.
 
 
 ###Open A Modal
